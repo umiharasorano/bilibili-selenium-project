@@ -30,6 +30,7 @@ def main(dr,mail_name,psw_bili,thread):
         print('{}封禁账号'.format(mail_name))
         return '封禁账号',a,b
     return '登录成功',timestr
+
 def login_check(dr,mail_name,psw_bili,thread):
     dr.get('https://passport.bilibili.com/login')
     cookies = login(dr,mail_name,psw_bili,thread)
