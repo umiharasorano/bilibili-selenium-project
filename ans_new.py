@@ -64,6 +64,7 @@ class MyThread(Thread):
         self.result = dr_start_check(*(self.args))
     def get_result(self):
         return self.result
+    
 if __name__== '__main__':
     try:
         #pass
