@@ -1,4 +1,5 @@
 from fanc import *
+
 def nameinput():
     name = random_nam_ch()
     drwait(3,0.3,"//*[@name='uname']")
