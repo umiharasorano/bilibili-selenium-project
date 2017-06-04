@@ -131,6 +131,7 @@ def ans_base(dr,ans_lib,pos_lib,s,uaList,thread):
         pass
     time.sleep(3)
     return
+
 def ans_zx(dr,ans_zx_lib,ranj,pos_lib,s,uaList,thread):
     left,right,top,bottom,top2,bottom2 = pos_lib
     for j in range(1,61):
