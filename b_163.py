@@ -2,7 +2,6 @@ from fanc import *
 from reg_163 import *
 command()
 uaList=[]
-
 dr = start_chromedr()
 accounts = account_load('Accounts\\Mail_Acounts.txt')
 i = 0
