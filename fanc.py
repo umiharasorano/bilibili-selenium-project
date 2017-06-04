@@ -178,6 +178,7 @@ def adsl():
     cmd_str = "rasdial %s %s %s" % (account[0], account[1], account[2])
     os.system(cmd_str)
     time.sleep(8)
+    
 def ipcheck():
     s = requests.session()
     r = s.get('http://1212.ip138.com/ic.asp')
