@@ -1,4 +1,5 @@
 from fanc import *
+
 def check_163(dr):
     url = 'https://www.baidu.com/s?wd=163&rsv_spt=1&rsv_iqid=0xb80d9de20005d8f5&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=baiduhome_pg&rsv_enter=1&inputT=503&rsv_t=120bl0XlmRxmiiPJ5L8QbZWYHhEw7%2BJ4ZcIqNFnaFi1Lgnwg4Ys7NrEvAZcM27HAzfFw&oq=python%2520%25E9%259A%258F%25E6%259C%25BA%25E5%25AD%2597%25E7%25AC%25A6%25E4%25B8%25B2&rsv_pq=a58d0bb40006325e&rsv_sug3=30&rsv_sug1=24&rsv_sug7=100&rsv_sug2=0&rsv_sug4=503'
     dr.get(url)
