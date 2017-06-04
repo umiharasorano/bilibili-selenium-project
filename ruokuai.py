@@ -83,7 +83,6 @@ def hotmail_register():
     name = 'hotmail_register.png'
     typeid = '5000'
     return name,typeid
-
 def main(name,typeid):
     client = APIClient()
     paramDict = {}
