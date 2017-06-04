@@ -35,6 +35,7 @@ def nameinput(dr):
     time.sleep(2)
     cookies2 = dr.get_cookies()
     return name,cookies2
+
 def vecodeinput(dr):
     drwait(3,0.3,"//*[@id='vdCodeTxt']")
     xfind("//*[@id='vdCodeTxt']").click()
